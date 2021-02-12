@@ -20,9 +20,25 @@ right ballpark:
     - [YSOs are assigned young ages (log Age = 6.5)](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareUpperScoAges.png), though maybe a bit low (log Age = 6.5 implies ~3 Myrs, whereas typical ages for Upper Sco range from 4-10 Myrs)
     - [Open cluster stars are assigned older ages](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/CoronaeAges.png),
 and the lower confidence pms candidates are older (indicating that pms probability is a good proxy for height above the mainsequence). 
+    - [field star contaminants end up with not-as-old ages, however](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/DANCeAges.png)
 
+- distance shifted catalogs indicate that model distance has noticable impact on inferred ages; impact on pms status is smaller, but does appear to avoid assigning pms status within 100pc.
+   - [dist vs. pms](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/LongerUpperScoDistPMS.png) and [dist vs. age](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/LongerUpperScoDistAge.png) for shifted Upper Sco sample
+   - [dist vs. pms](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/CoronaeDistPMS.png) and [dist vs. age](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/CoronaeDistAge.png) for shifted open cluster sample
+   - [dist vs. pms](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/ShiftedDANCeDistPMS.png) and [dist vs. age](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/ShiftedDANCeDistAge.png) for shifted field star sample
+       - [ratio of distribution of pms probabilities](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/ShiftedDANCePMSHistRatio.png) confirms that stars are less likely to be assigned high pms probabilities if shifted within 100pc (relative to other distances within 500pc). 
+       - distance effects can also be seen in raw field star sample,
+         since it naturally includes more distance variation than
+         Upper Sco or open cluster catalogs (see [age](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/rawDANCeDistAge.png) and
+         [pms probability](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/rawDANCeDistPMS.png) vs. distance plots for the raw catalog)
 
-- distance shifted catalogs indicate that model is leaning non-trivially on distance to 
+- Systematic errors in age appear ~3x larger than variation implied by
+scattering test ($\sigma$ ~0.3 dex vs. 0.1 dex from scattering test)
+    - distribution of age offsets for synthetically shifted
+      [YSOs](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareUpperScoAgeDiffs.png)
+      and [field stars](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/ShiftedDANCeAgeDiffs.png)
+    - see also stats calculated at bottom of [Upper Sco](https://github.com/kevincovey/Sagitta_Checks/blob/main/notebooks/ShiftUpperSco.ipynb) and [Field Star](https://github.com/kevincovey/Sagitta_Checks/blob/main/notebooks/ShiftFieldStars.ipynb) notebooks
+
 
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
 
