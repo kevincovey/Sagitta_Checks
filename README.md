@@ -5,7 +5,7 @@
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
 
 - Catalog of likely members of young (ages 30-300 Myr) open clusters
-(from
+    (from
 [Meingast, Alves & Rottensteiner 2021](https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..84M/abstract),
 via
 [Vizier](https://vizier.u-strasbg.fr/viz-bin/VizieR?-source=J/A+A/645/A84)
@@ -18,7 +18,8 @@ including many > 500pc)
     [Sagitta Inputs](https://www.dropbox.com/s/wqcbdxr44femxl2/LongerCoronae.fits?dl=0)
 | [Sagitta Outputs](https://www.dropbox.com/s/v7xcbreyrsk865g/LongerCoronae-sagitta.fits?dl=0)
 
-- Catalog of field stars in direction of IC 4665 (Pmem < 0.3 sources from
+- Catalog of field stars in direction of IC 4665
+    (Pmem < 0.3 sources from
 [Miret-Roig+ 2019](https://ui.adsabs.harvard.edu/abs/2019A%26A...631A..57M/abstract),
 via
 [Vizier](https://vizier.u-strasbg.fr/viz-bin/VizieR-3?-source=J/A%2bA/631/A57/table5)
