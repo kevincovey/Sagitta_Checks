@@ -14,11 +14,15 @@ on open cluster tests):
 	- flags a very small (but non-zero) fraction of field stars (see
       [pms prob histograms of field stars at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/DANCeProbs.png))
 
-- properties of known YSOs, at their actual distances, are in the
+- properties of known YSOs and open cluster stars, at their actual distances, are in the
 right ballpark:
     - [Extinctions are reasonable](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareAv.png), though fairly uniform + underestimated in the mean (since only considering foreground component)
-	  
+    - [YSOs are assigned young ages (log Age = 6.5)](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareUpperScoAges.png), though maybe a bit low (log Age = 6.5 implies ~3 Myrs, whereas typical ages for Upper Sco range from 4-10 Myrs)
+    - [Open cluster stars are assigned older ages](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/CoronaeAges.png),
+and the lower confidence pms candidates are older (indicating that pms probability is a good proxy for height above the mainsequence). 
 
+
+- distance shifted catalogs indicate that model is leaning non-trivially on distance to 
 
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
 
