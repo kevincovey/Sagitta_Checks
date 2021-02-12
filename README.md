@@ -1,6 +1,18 @@
 # Sagitta_Checks
 
-## Links to files that do not fit in the repo: ##
+## Initial conclusions: ##
+
+- pre-main sequence probability varies as expected for empirical
+populations:
+    - flags large fraction of Upper Sco YSOs; (see
+      [pms prob. histograms for upper sco members at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareUpperScoProbs.png))
+    - flags a smaller, age-dependent fraction of open cluster members;
+      (see
+      [pms prob. histograms for open cluster members at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/CoronaeProbs.png),
+      and stats computed in cell 5 of [open cluster notebook](https://github.com/kevincovey/Sagitta_Checks/blob/main/notebooks/ShiftOlderClusters.ipynb))
+	- flags a very small (but non-zero) fraction of field stars (see
+      [pms prob histograms of field stars at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/DANCeProbs.png))
+
 
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
 
