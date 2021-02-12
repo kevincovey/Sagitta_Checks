@@ -16,7 +16,8 @@ on open cluster tests):
 
 - properties of known YSOs, at their actual distances, are in the
 right ballpark:
-    - [Extinctions are reasonable](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareAv.png), though fairly uniform + underestimated in the mean (sinceonly considering foreground component) 
+    - [Extinctions are reasonable](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareAv.png), though fairly uniform + underestimated in the mean (since only considering foreground component)
+	  
 
 
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
