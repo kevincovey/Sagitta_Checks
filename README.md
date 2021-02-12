@@ -10,11 +10,9 @@
 via
 [Vizier](https://vizier.u-strasbg.fr/viz-bin/VizieR?-source=J/A+A/645/A84)
 and TOPCAT to match to Gaia + 2MASS)
-
   Distance Filtering: catalog synthetically shifted to distances between
 10-500pc, in steps of 30 pc (original locations also retained,
 including many > 500pc)
-
   [Sagitta Inputs](https://www.dropbox.com/s/wqcbdxr44femxl2/LongerCoronae.fits?dl=0)
 | [Sagitta Outputs](https://www.dropbox.com/s/v7xcbreyrsk865g/LongerCoronae-sagitta.fits?dl=0)
 
