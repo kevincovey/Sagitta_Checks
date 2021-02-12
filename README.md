@@ -3,7 +3,8 @@
 ## Initial conclusions: ##
 
 - pre-main sequence probability varies as expected for empirical
-populations:
+populations (but 95% appears a more secure threshold than 80%, based
+on open cluster tests):
     - flags large fraction of Upper Sco YSOs; (see
       [pms prob. histograms for upper sco members at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareUpperScoProbs.png))
     - flags a smaller, age-dependent fraction of open cluster members;
@@ -12,6 +13,10 @@ populations:
       and stats computed in cell 5 of [open cluster notebook](https://github.com/kevincovey/Sagitta_Checks/blob/main/notebooks/ShiftOlderClusters.ipynb))
 	- flags a very small (but non-zero) fraction of field stars (see
       [pms prob histograms of field stars at actual distances](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/DANCeProbs.png))
+
+- properties of known YSOs, at their actual distances, are in the
+right ballpark:
+    - [Extinctions are reasonable](https://github.com/kevincovey/Sagitta_Checks/blob/main/plots/compareAv.png), though fairly uniform + underestimated in the mean (sinceonly considering foreground component) 
 
 
 ### Sagitta Inputs+outputs for catalogs with distance shifted copies: ###
