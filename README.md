@@ -50,7 +50,7 @@ via
 and TOPCAT to match to Gaia + 2MASS)
 
     Distance Filtering: catalog synthetically shifted to distances between
-10-500pc, in steps of 30 pc (original locations also retained,
+10-500pc, in steps of 3 pc (original locations also retained,
 including many > 500pc)
 
     [Sagitta Inputs](https://www.dropbox.com/s/wqcbdxr44femxl2/LongerCoronae.fits?dl=0)
